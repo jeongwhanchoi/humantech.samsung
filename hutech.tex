@@ -1,0 +1,51 @@
+\documentclass{humantech}
+
+%%%%%%%%%%%%%%%%%%%%%   PACKAGE    %%%%%%%%%%%%%%%%%%%%%
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{amsthm,amsmath,amsfonts}
+\usepackage{algorithmic}
+% \usepackage{amsthm}
+\usepackage[linesnumbered,ruled,noend]{algorithm2e} 
+\usepackage{paralist}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lipsum}
+\usepackage{blindtext}
+\usepackage{cite}
+% \usepackage[utf8]{inputenc} 
+% \usepackage[T1]{fontenc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%    Header    %%%%%%%%%%%%%%%%%%%%%
+\turn{29} % 제29회 삼성휴먼테크논문대상
+%%%%%%%%%%%%%%%%%%%%%    Title     %%%%%%%%%%%%%%%%%%%%%
+\title{Samsung Humantech Paper Template}
+\begin{document}
+\twocolumn[
+\begin{@twocolumnfalse}
+\begin{flushleft}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%   ABSTRACT    %%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+%remove \lipsum and write your abstraction
+\textbf{\lipsum[1-1]}
+\end{abstract}
+
+\vspace{20pt}
+\end{flushleft}
+\end{@twocolumnfalse}
+]
+%%%%%%%%%%%%%%%%%%%%%   Content    %%%%%%%%%%%%%%%%%%%%%
+
+\section{Example}
+Lorem~\cite{c:83,c:84} ipsum~\cite{em:86} dolor~\cite{r:80x} sit~\cite{c:22} amet~\cite{hcrt:83}
+
+\Blinddocument 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%  Reference   %%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{humantech}
+\bibliography{reference}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

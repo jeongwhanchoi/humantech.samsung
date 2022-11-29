@@ -1,0 +1,2 @@
+# Samsung Humantech Paper Template
+
